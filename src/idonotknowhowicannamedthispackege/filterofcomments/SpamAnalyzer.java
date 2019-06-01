@@ -1,4 +1,4 @@
-package idonotknowhowicannamedthispackege.filterOfComments;
+package idonotknowhowicannamedthispackege.filterofcomments;
 
 class SpamAnalyzer extends KeywordAnalizer {
     private String[] keywords;
@@ -16,5 +16,4 @@ class SpamAnalyzer extends KeywordAnalizer {
     Label getLabel() {
         return Label.SPAM;
     }
-
 }

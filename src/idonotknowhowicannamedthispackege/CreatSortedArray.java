@@ -8,20 +8,20 @@ public class CreatSortedArray {
         int[] result = new int[first.length + second.length];
         int iFirst = 0;
         int iSecond = 0;
-        for (int i = 0; i < result.length; i++) {
-            if (i - iFirst < first.length && i - iSecond < second.length) {
-                if (first[i - iFirst] < second[i - iSecond]) {
-                    result[i] = first[i - iFirst];
+        for (int x = 0; x < result.length; x++) {
+            if (x - iFirst < first.length && x - iSecond < second.length) {
+                if (first[x - iFirst] < second[x - iSecond]) {
+                    result[x] = first[x - iFirst];
                     iSecond++;
                 } else {
-                    result[i] = second[i - iSecond];
+                    result[x] = second[x - iSecond];
                     iFirst++;
                 }
             } else {
-                if (i - iFirst < first.length) {
-                    result[i] = first[i - iFirst];
+                if (x - iFirst < first.length) {
+                    result[x] = first[x - iFirst];
                 } else {
-                    result[i] = second[i - iSecond];
+                    result[x] = second[x - iSecond];
                 }
             }
         }

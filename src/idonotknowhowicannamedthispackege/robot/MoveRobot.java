@@ -8,9 +8,9 @@ public class MoveRobot {
         return direction == Direction.DOWN || direction == Direction.UP ? verticalDistance : horizontalDistance;
     }
 
-    private static void wolker(Robot robot, int distance) {
+    private static void wolker(Robot bobot, int distance) {
         for (; distance > 0; distance--) {
-            robot.stepForward();
+            bobot.stepForward();
         }
     }
 

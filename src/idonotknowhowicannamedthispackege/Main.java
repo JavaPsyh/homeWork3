@@ -22,7 +22,7 @@ public class Main {
 //      3.2
         System.out.println(StringsPerRoles.stringsPerRoles(StringsPerRoles.roles, StringsPerRoles.text));
 
-//      3.3 Fucking Robot
+//      3.3 Robot
         Robot robot = new Robot();
         Random random = new Random();
         int max = 10;
@@ -44,10 +44,10 @@ public class Main {
         System.out.println("Y " + robot.getY());
         System.out.println(robot.getDirection());
 //      3.4
-        EqualsAndHachCodeOverriding object1 = new EqualsAndHachCodeOverriding(3.14, 2.718);
-        EqualsAndHachCodeOverriding object2 = new EqualsAndHachCodeOverriding(3.14, 2.718);
-        EqualsAndHachCodeOverriding object3 = new EqualsAndHachCodeOverriding(1.618, 1.08);
-        EqualsAndHachCodeOverriding object4 = object1;
+        EqualsAndHashCodeOverriding object1 = new EqualsAndHashCodeOverriding(3.14, 2.718);
+        EqualsAndHashCodeOverriding object2 = new EqualsAndHashCodeOverriding(3.14, 2.718);
+        EqualsAndHashCodeOverriding object3 = new EqualsAndHashCodeOverriding(1.618, 1.08);
+        EqualsAndHashCodeOverriding object4 = object1;
         System.out.println();
         System.out.println("Is object1 equals to object2? " + object1.equals(object2));
         System.out.println("Is object1 equals to object3? " + object1.equals(object3));
@@ -80,7 +80,7 @@ public class Main {
             }
         }
         System.out.println();
-//      3.8 package java.filterOfComments;
+//      3.8 package java.filterofcomments;
 //      3.9
         System.out.println();
         int number = -25;

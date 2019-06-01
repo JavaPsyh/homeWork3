@@ -1,6 +1,7 @@
-package idonotknowhowicannamedthispackege.filterOfComments;
+package idonotknowhowicannamedthispackege.filterofcomments;
 
 class TooLongTextAnalyzer implements TextAnalyzer {
+
     private int maxLength;
 
     public TooLongTextAnalyzer(int maxLength) {

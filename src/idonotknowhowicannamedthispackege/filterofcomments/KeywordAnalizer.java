@@ -1,6 +1,6 @@
-package idonotknowhowicannamedthispackege.filterOfComments;
+package idonotknowhowicannamedthispackege.filterofcomments;
 
-abstract class KeywordAnalizer implements TextAnalyzer {
+abstract class KeywordAnalizer implements TextAnalyzer{
 
     abstract String[] getKeywords();
 

@@ -1,4 +1,4 @@
-package idonotknowhowicannamedthispackege.filterOfComments;
+package idonotknowhowicannamedthispackege.filterofcomments;
 
 class NegativeTextAnalyzer extends KeywordAnalizer {
     private String[] keywords = new String[]{":(", "=(", "8(", ":-(", ":|", "8|"};
@@ -12,5 +12,4 @@ class NegativeTextAnalyzer extends KeywordAnalizer {
     Label getLabel() {
         return Label.NEGATIV_TEXT;
     }
-
 }

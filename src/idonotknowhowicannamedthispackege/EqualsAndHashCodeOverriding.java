@@ -1,10 +1,10 @@
 package idonotknowhowicannamedthispackege;
 
-public final class EqualsAndHachCodeOverriding {
+public final class EqualsAndHashCodeOverriding {
     private final double re;
     private final double im;
 
-    public EqualsAndHachCodeOverriding(double re, double im) {
+    public EqualsAndHashCodeOverriding(double re, double im) {
         this.re = re;
         this.im = im;
     }
@@ -25,10 +25,10 @@ public final class EqualsAndHachCodeOverriding {
         if (o == null) {
             return false;
         }
-        if (!(o instanceof EqualsAndHachCodeOverriding)) {
+        if (!(o instanceof EqualsAndHashCodeOverriding)) {
             return false;
         }
-        EqualsAndHachCodeOverriding otherObj = (EqualsAndHachCodeOverriding) o;
+        EqualsAndHashCodeOverriding otherObj = (EqualsAndHashCodeOverriding) o;
         if (this.re != otherObj.re || this.im != otherObj.im) {
             return false;
         }

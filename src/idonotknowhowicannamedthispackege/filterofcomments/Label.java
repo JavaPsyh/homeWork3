@@ -1,4 +1,4 @@
-package idonotknowhowicannamedthispackege.filterOfComments;
+package idonotknowhowicannamedthispackege.filterofcomments;
 
 enum Label {
 
@@ -6,5 +6,5 @@ enum Label {
     NEGATIV_TEXT,
     TOO_LONG,
     OK
-
 }
+

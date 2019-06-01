@@ -1,5 +1,6 @@
-package idonotknowhowicannamedthispackege.filterOfComments;
+package idonotknowhowicannamedthispackege.filterofcomments;
 
 interface TextAnalyzer {
+
     Label processText(String text);
 }

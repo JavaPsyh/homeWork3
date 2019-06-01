@@ -10,3 +10,4 @@ public class IsStringPalindrome {
         return textForAnalysis.equals(reversOfTextForAnalysis);
     }
 }
+

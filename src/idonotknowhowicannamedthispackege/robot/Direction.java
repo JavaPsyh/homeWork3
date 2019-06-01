@@ -1,6 +1,6 @@
 package idonotknowhowicannamedthispackege.robot;
 
-public enum Direction {
+public enum Direction{
     UP,
     DOWN,
     LEFT,

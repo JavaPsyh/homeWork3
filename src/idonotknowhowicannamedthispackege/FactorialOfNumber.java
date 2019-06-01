@@ -9,7 +9,6 @@ public class FactorialOfNumber {
         for (int i = 1; i <= number; i++) {
             result = result.multiply(BigInteger.valueOf(i));
         }
-
         return result;
     }
 }

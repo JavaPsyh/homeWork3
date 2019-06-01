@@ -21,7 +21,7 @@ public class AsciiCharSequence implements CharSequence {
     public CharSequence subSequence(int start, int end) {
 
         if (end < start) {
-            return "Invalid parameters.";
+            return "Invalid parameters";
         }
 
         byte[] result = new byte[end - start];
