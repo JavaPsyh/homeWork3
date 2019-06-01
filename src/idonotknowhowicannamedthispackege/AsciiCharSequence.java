@@ -1,4 +1,4 @@
-package psyh;
+package idonotknowhowicannamedthispackege;
 
 public class AsciiCharSequence implements CharSequence {
     private byte[] arrayOfBytes;
@@ -19,6 +19,11 @@ public class AsciiCharSequence implements CharSequence {
 
     @Override
     public CharSequence subSequence(int start, int end) {
+
+        if (end < start) {
+            return "Invalid parameters.";
+        }
+
         byte[] result = new byte[end - start];
 
         for (int i = start; i < end; i++) {
@@ -35,5 +40,4 @@ public class AsciiCharSequence implements CharSequence {
         }
         return result.toString();
     }
-
 }

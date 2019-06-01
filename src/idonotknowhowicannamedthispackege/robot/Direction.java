@@ -1,4 +1,4 @@
-package psyh.fuckingRobot;
+package idonotknowhowicannamedthispackege.robot;
 
 public enum Direction {
     UP,

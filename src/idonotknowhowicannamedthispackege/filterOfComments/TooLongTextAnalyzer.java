@@ -1,4 +1,4 @@
-package psyh.filterOfComments;
+package idonotknowhowicannamedthispackege.filterOfComments;
 
 class TooLongTextAnalyzer implements TextAnalyzer {
     private int maxLength;

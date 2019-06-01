@@ -1,4 +1,4 @@
-package psyh.filterOfComments;
+package idonotknowhowicannamedthispackege.filterOfComments;
 
 abstract class KeywordAnalizer implements TextAnalyzer {
 
@@ -9,8 +9,8 @@ abstract class KeywordAnalizer implements TextAnalyzer {
     @Override
     public Label processText(String text) {
         String[] arrayOfKeywords = getKeywords();
-        for (int i = 0; i < arrayOfKeywords.length; i++) {
-            if (text.contains(arrayOfKeywords[i])) {
+        for (String keyword : arrayOfKeywords) {
+            if (text.contains(keyword)) {
                 return getLabel();
             }
         }

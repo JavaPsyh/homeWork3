@@ -1,4 +1,4 @@
-package psyh.filterOfComments;
+package idonotknowhowicannamedthispackege.filterOfComments;
 
 enum Label {
 

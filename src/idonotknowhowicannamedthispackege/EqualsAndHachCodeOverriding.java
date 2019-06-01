@@ -1,4 +1,4 @@
-package psyh;
+package idonotknowhowicannamedthispackege;
 
 public final class EqualsAndHachCodeOverriding {
     private final double re;
@@ -29,10 +29,7 @@ public final class EqualsAndHachCodeOverriding {
             return false;
         }
         EqualsAndHachCodeOverriding otherObj = (EqualsAndHachCodeOverriding) o;
-        if (this.re != otherObj.re) {
-            return false;
-        }
-        if (this.im != otherObj.im) {
+        if (this.re != otherObj.re || this.im != otherObj.im) {
             return false;
         }
         return true;

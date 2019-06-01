@@ -1,8 +1,10 @@
-package psyh;
+package idonotknowhowicannamedthispackege;
 
 public class CreatSortedArray {
     public static int[] creatSortedArray(int[] first, int[] second) {
-        if (first == null || second == null) return null;
+        if (first == null || second == null) {
+            return null;
+        }
         int[] result = new int[first.length + second.length];
         int iFirst = 0;
         int iSecond = 0;

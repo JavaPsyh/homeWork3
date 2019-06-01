@@ -1,4 +1,4 @@
-package psyh;
+package idonotknowhowicannamedthispackege;
 
 public class StringsPerRoles {
     private static String colon = ":";

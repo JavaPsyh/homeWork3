@@ -1,8 +1,8 @@
-package psyh.fuckingRobot;
+package idonotknowhowicannamedthispackege.robot;
 
 import java.util.Random;
 
-public class FuckingRobot {
+public class Robot {
     Random random = new Random();
     private int max = 10;
     private int min = -10;

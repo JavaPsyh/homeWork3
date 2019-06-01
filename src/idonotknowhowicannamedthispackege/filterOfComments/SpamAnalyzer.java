@@ -1,4 +1,4 @@
-package psyh.filterOfComments;
+package idonotknowhowicannamedthispackege.filterOfComments;
 
 class SpamAnalyzer extends KeywordAnalizer {
     private String[] keywords;

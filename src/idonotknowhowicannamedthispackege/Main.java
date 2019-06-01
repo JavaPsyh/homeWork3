@@ -1,7 +1,7 @@
-package psyh;
+package idonotknowhowicannamedthispackege;
 
-import psyh.fuckingRobot.FuckingRobot;
-import psyh.fuckingRobot.MoveFuckingRobot;
+import idonotknowhowicannamedthispackege.robot.Robot;
+import idonotknowhowicannamedthispackege.robot.MoveRobot;
 
 import java.util.Random;
 
@@ -23,26 +23,26 @@ public class Main {
         System.out.println(StringsPerRoles.stringsPerRoles(StringsPerRoles.roles, StringsPerRoles.text));
 
 //      3.3 Fucking Robot
-        FuckingRobot fuckingRobot = new FuckingRobot();
+        Robot robot = new Robot();
         Random random = new Random();
         int max = 10;
         int min = -10;
         int xT = random.nextInt((max - min) + 1) + min;
         int yT = random.nextInt((max - min) + 1) + min;
         System.out.println("Where was:");
-        System.out.println("X " + fuckingRobot.getX());
-        System.out.println("Y " + fuckingRobot.getY());
-        System.out.println(fuckingRobot.getDirection());
+        System.out.println("X " + robot.getX());
+        System.out.println("Y " + robot.getY());
+        System.out.println(robot.getDirection());
         System.out.println();
         System.out.println("Target:");
         System.out.println("X " + xT);
         System.out.println("Y " + yT);
-        MoveFuckingRobot.moveFuckingRobot(fuckingRobot, xT, yT);
+        MoveRobot.moveRobot(robot, xT, yT);
         System.out.println();
         System.out.println("Where is:");
-        System.out.println("X " + fuckingRobot.getX());
-        System.out.println("Y " + fuckingRobot.getY());
-        System.out.println(fuckingRobot.getDirection());
+        System.out.println("X " + robot.getX());
+        System.out.println("Y " + robot.getY());
+        System.out.println(robot.getDirection());
 //      3.4
         EqualsAndHachCodeOverriding object1 = new EqualsAndHachCodeOverriding(3.14, 2.718);
         EqualsAndHachCodeOverriding object2 = new EqualsAndHachCodeOverriding(3.14, 2.718);
@@ -80,7 +80,7 @@ public class Main {
             }
         }
         System.out.println();
-//      3.8 package psyh.filterOfComments;
+//      3.8 package java.filterOfComments;
 //      3.9
         System.out.println();
         int number = -25;

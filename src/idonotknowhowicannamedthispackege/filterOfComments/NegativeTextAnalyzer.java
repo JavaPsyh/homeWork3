@@ -1,4 +1,4 @@
-package psyh.filterOfComments;
+package idonotknowhowicannamedthispackege.filterOfComments;
 
 class NegativeTextAnalyzer extends KeywordAnalizer {
     private String[] keywords = new String[]{":(", "=(", "8(", ":-(", ":|", "8|"};
