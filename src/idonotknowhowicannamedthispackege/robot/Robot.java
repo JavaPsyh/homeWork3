@@ -23,64 +23,53 @@ public class Robot {
     }
 
     public void turnLeft() {
-        if (direction == Direction.DOWN) {
-            this.direction = Direction.RIGHT;
-            return;
-        }
 
-        if (direction == Direction.UP) {
-            this.direction = Direction.LEFT;
-            return;
-        }
-
-        if (direction == Direction.LEFT) {
-            this.direction = Direction.DOWN;
-            return;
-        }
-
-        if (direction == Direction.RIGHT) {
-            this.direction = Direction.UP;
-            return;
+        switch (direction) {
+            case UP:
+                this.direction = Direction.LEFT;
+                return;
+            case DOWN:
+                this.direction = Direction.RIGHT;
+                return;
+            case LEFT:
+                this.direction = Direction.DOWN;
+                return;
+            default:
+                this.direction = Direction.UP;
         }
     }
 
     public void turnRight() {
-        if (this.direction == Direction.DOWN) {
-            this.direction = Direction.LEFT;
-            return;
-        }
 
-        if (this.direction == Direction.UP) {
-            this.direction = Direction.RIGHT;
-            return;
-        }
-
-        if (this.direction == Direction.LEFT) {
-            this.direction = Direction.UP;
-            return;
-        }
-
-        if (this.direction == Direction.RIGHT) {
-            this.direction = Direction.DOWN;
-            return;
+        switch (direction) {
+            case UP:
+                this.direction = Direction.RIGHT;
+                return;
+            case DOWN:
+                this.direction = Direction.LEFT;
+                return;
+            case LEFT:
+                this.direction = Direction.UP;
+                return;
+            default:
+                this.direction = Direction.DOWN;
         }
     }
 
     public void stepForward() {
-        if (direction == Direction.DOWN) {
-            this.y--;
-        }
 
-        if (direction == Direction.UP) {
-            this.y++;
-        }
-
-        if (direction == Direction.LEFT) {
-            this.x--;
-        }
-
-        if (direction == Direction.RIGHT) {
-            this.x++;
+        switch (direction) {
+            case UP:
+                this.y++;
+                break;
+            case DOWN:
+                this.y--;
+                break;
+            case LEFT:
+                this.x--;
+                break;
+            default:
+                this.x++;
         }
     }
 }
