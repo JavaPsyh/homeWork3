@@ -1,7 +1,7 @@
-package idonotknowhowicannamedthispackege;
+package idonotknowhowicannamethispackageoverdotes;
 
-import idonotknowhowicannamedthispackege.robot.Robot;
-import idonotknowhowicannamedthispackege.robot.MoveRobot;
+import idonotknowhowicannamethispackageoverdotes.robot.Robot;
+import idonotknowhowicannamethispackageoverdotes.robot.MoveRobot;
 
 import java.util.Random;
 
