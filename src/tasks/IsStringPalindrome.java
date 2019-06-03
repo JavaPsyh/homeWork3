@@ -1,4 +1,4 @@
-package idonotknowhowicannamedthispackege;
+package tasks;
 
 public class IsStringPalindrome {
     public static boolean isStringPalindrome(String text) {

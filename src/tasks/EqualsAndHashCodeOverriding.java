@@ -1,4 +1,4 @@
-package idonotknowhowicannamethispackageoverdotes;
+package tasks;
 
 public final class EqualsAndHashCodeOverriding {
     private final double re;

@@ -1,4 +1,4 @@
-package idonotknowhowicannamethispackageoverdotes;
+package tasks;
 
 public class MathSqRt {
     public static double mathSqRt(double number) {

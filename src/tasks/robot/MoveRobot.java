@@ -1,4 +1,4 @@
-package idonotknowhowicannamethispackageoverdotes.robot;
+package tasks.robot;
 
 public class MoveRobot {
 

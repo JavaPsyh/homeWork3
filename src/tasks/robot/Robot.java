@@ -1,4 +1,4 @@
-package idonotknowhowicannamedthispackege.robot;
+package tasks.robot;
 
 import java.util.Random;
 

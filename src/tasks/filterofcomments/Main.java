@@ -1,4 +1,4 @@
-package idonotknowhowicannamethispackageoverdotes.filterofcomments;
+package tasks.filterofcomments;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package idonotknowhowicannamedthispackege.filterofcomments;
+package tasks.filterofcomments;
 
 class TooLongTextAnalyzer implements TextAnalyzer {
 

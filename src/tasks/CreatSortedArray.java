@@ -1,4 +1,4 @@
-package idonotknowhowicannamethispackageoverdotes;
+package tasks;
 
 public class CreatSortedArray {
     public static int[] creatSortedArray(int[] first, int[] second) {

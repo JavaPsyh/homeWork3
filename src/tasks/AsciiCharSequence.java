@@ -1,4 +1,4 @@
-package idonotknowhowicannamedthispackege;
+package tasks;
 
 public class AsciiCharSequence implements CharSequence {
     private byte[] arrayOfBytes;

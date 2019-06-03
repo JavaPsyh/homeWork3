@@ -1,4 +1,4 @@
-package idonotknowhowicannamethispackageoverdotes;
+package tasks;
 
 public class StringsPerRoles {
     private static String colon = ":";
