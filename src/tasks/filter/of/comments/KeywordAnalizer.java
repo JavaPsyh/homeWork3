@@ -1,4 +1,4 @@
-package tasks.filterofcomments;
+package tasks.filter.of.comments;
 
 abstract class KeywordAnalizer implements TextAnalyzer{
 

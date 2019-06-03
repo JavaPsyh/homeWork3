@@ -1,4 +1,4 @@
-package tasks.filterofcomments;
+package tasks.filter.of.comments;
 
 class NegativeTextAnalyzer extends KeywordAnalizer {
     private String[] keywords = new String[]{":(", "=(", "8(", ":-(", ":|", "8|"};

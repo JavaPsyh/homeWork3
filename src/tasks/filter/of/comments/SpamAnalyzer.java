@@ -1,4 +1,4 @@
-package tasks.filterofcomments;
+package tasks.filter.of.comments;
 
 class SpamAnalyzer extends KeywordAnalizer {
     private String[] keywords;

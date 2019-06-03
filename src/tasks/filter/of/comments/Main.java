@@ -1,4 +1,4 @@
-package tasks.filterofcomments;
+package tasks.filter.of.comments;
 
 public class Main {
     public static void main(String[] args) {
